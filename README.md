@@ -10,9 +10,9 @@ A deep learning image classifier that predicts the genre of a book from its cove
 
 | Model | Accuracy | Notes |
 |---|---|---|
-| Custom CNN (from scratch) | 14.74% | Baseline |
+| Custom CNN (from scratch) | 13.84% | Baseline |
 | ResNet50 (final layer only) | 22.04% | Transfer learning |
-| ResNet50 (full fine-tune) | 28.88% | Best result |
+| ResNet50 (full fine-tune) | 28.35% | Best result |
 
 Random baseline: **3.3%** (1/30 classes) — model performs ~8.7x better than chance.
 
