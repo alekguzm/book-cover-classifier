@@ -30,13 +30,13 @@ Random baseline: **3.3%** (1/30 classes) — model performs ~8.7x better than ch
 ## Approach
 
 ### 1. Custom CNN (Baseline)
-Built a 3-layer convolutional neural network from scratch to establish a baseline. Achieved **14.74% accuracy**.
+Built a 3-layer convolutional neural network from scratch to establish a baseline. Achieved **13.84% accuracy**.
 
 ### 2. Transfer Learning with ResNet50
 Loaded a pretrained ResNet50 (ImageNet weights) and replaced the final fully connected layer with a 30-class output head. Trained only the final layer. Achieved **22.04% accuracy**.
 
 ### 3. Full Fine-Tuning
-Unfroze all layers of ResNet50 and continued training with a lower learning rate (`1e-4`). Achieved **28.88% accuracy** — the best result.
+Unfroze all layers of ResNet50 and continued training with a lower learning rate (`1e-4`). Achieved **28.35% accuracy** — the best result.
 
 ---
 
