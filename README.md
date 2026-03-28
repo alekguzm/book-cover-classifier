@@ -74,7 +74,7 @@ book-cover-classifier/
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/aleksander-guzman/book-cover-classifier
+git clone https://github.com/alekguzm/book-cover-classifier
 cd book-cover-classifier
 ```
 
@@ -107,4 +107,4 @@ Open `book_cover_classifier.ipynb` in Jupyter Lab or Kaggle Notebooks.
 ## Author
 
 **Aleksander Guzman**  
-[GitHub](https://github.com/aleksander-guzman) · [LinkedIn](https://linkedin.com/in/aleksander-guzman)
+[GitHub](https://github.com/alekguzm) · [LinkedIn](www.linkedin.com/in/aleksander-guzman-0ab408265)
